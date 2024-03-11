@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "Ringo 2024/Ringo 2024"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.server.launchMode": "Standard"
+	}
+}
