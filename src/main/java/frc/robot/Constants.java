@@ -30,7 +30,7 @@ public final class Constants {
                 new Translation2d(-kWheelBase / 2, kTrackWidth / 2));
 
 
-    public static final boolean kFrontLeftTurningEncoderReversed = true;
+        public static final boolean kFrontLeftTurningEncoderReversed = true;
         public static final boolean kBackLeftTurningEncoderReversed = true;
         public static final boolean kFrontRightTurningEncoderReversed = true;
         public static final boolean kBackRightTurningEncoderReversed = true;
@@ -40,10 +40,10 @@ public final class Constants {
         public static final boolean kFrontRightDriveEncoderReversed = false;
         public static final boolean kBackRightDriveEncoderReversed = false;
 
-        public static final double kFrontLeftDriveMagEncoderOffsetRad = 3.349427; //set these onez when robot is made
-        public static final double kBackLeftDriveMagEncoderOffsetRad = 6.302268;
-        public static final double kFrontRightDriveMagEncoderOffsetRad = 0.228573;
-        public static final double kBackRightDriveMagEncoderOffsetRad = 0.023122;
+        public static final double kFrontLeftDriveMagEncoderOffsetRad = 0; //set these onez when robot is made
+        public static final double kBackLeftDriveMagEncoderOffsetRad = 0;
+        public static final double kFrontRightDriveMagEncoderOffsetRad = 0;
+        public static final double kBackRightDriveMagEncoderOffsetRad = 0;
 
         
     public static final double kPhysicalMaxSpeedMetersPerSecond = 5;
@@ -95,7 +95,7 @@ public final class Constants {
     public static final double kTurningEncoderRot2Rad = kTurningMotorGearRatio * 2 * Math.PI;
     public static final double kDriveEncoderRPM2MeterPerSec = kDriveEncoderRot2Meter / 60;
     public static final double kTurningEncoderRPM2RadPerSec = kTurningEncoderRot2Rad / 60;
-    public static final double kPTurning = 1;
+    public static final double kPTurning = 0;
 
   }
 
